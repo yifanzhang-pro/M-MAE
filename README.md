@@ -1,6 +1,6 @@
 # M-MAE (Matrix Variational Masked Autoencoder)
 
-Official implementation of paper 'Information Flow in Self-Supervised Learning'.
+Official implementation for Matrix Variational Masked Autoencoder (M-MAE) of paper 'Information Flow in Self-Supervised Learning'.
 
 This repository includes a PyTorch implementation of the Matrix Variational Masked Autoencoder (M-MAE). M-MAE is an extension of [MAE (He et al., 2022)](https://arxiv.org/pdf/2111.06377.pdf) and [U-MAE (Zhang et al., 2022)](https://arxiv.org/pdf/2210.08344.pdf) by further encouraging the feature uniformity of MAE from a matrix information theoretic perspective. 
 
