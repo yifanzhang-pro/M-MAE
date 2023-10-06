@@ -4,7 +4,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port='30111' main
     --norm_pix_loss \
     --mask_ratio 0.75 \
     --epochs 200 \
-    --warmup_epochs 20 \
+    --warmup_epochs 40 \
     --blr 1.5e-4 --weight_decay 0.05 \
     --data_path ../imagenet\
     --lamb 1e-2\
