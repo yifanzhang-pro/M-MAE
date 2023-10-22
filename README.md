@@ -11,7 +11,7 @@ This repo is based on the [official code of MAE](https://github.com/facebookrese
 
 **Minor points:**
 1. We add a linear classifier to monitor the online linear accuracy and its gradient will not be backpropagated to the backbone encoder.
-2. For efficiency, we only train M-MAE for 200 epochs, and accordingly, we adopt 20 warmup epochs.
+2. For efficiency, we only train M-MAE for 200 epochs, and accordingly, we adopt 40 warmup epochs for ViT-Large.
 
 
 
