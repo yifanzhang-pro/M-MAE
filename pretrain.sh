@@ -8,9 +8,9 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port='30111' main
     --blr 1.5e-4 --weight_decay 0.05 \
     --data_path ../imagenet\
     --lamb 1e-2\
-    --uniformity_lamda 3\
+    --uniformity_mu 3\
     --reg TCR\
     --centering False\
-    --output_dir temp_dir-large-TCR-1e-2-lamda-3\
-    --log_dir temp_dir-large-TCR-1e-2-lamda-3\
+    --output_dir temp_dir-large-TCR-1e-2-mu-3\
+    --log_dir temp_dir-large-TCR-1e-2-mu-3\
     # --distributed
