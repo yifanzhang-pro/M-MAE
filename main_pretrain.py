@@ -110,7 +110,7 @@ def get_args_parser():
     parser.add_argument('--lamb', type=float, default=0)
     parser.add_argument('--reg', type=str, default='none', choices=['none', 'square', 'TCR'])
     parser.add_argument('--uniformity_mu', type=float, default=1.)
-    parser.add_argument('--centering', type=bool, default=False)
+    parser.add_argument('--centering', action='store_true')
     parser.add_argument('--val-interval', default=10, type=int)
 
     return parser
