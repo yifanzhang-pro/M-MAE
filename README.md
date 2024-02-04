@@ -23,7 +23,7 @@ Our code follows the official implementations of MAE (https://github.com/faceboo
 Please cite the paper and star this repo if you use M-MAE and find it interesting/useful, thanks! Feel free to contact zhangyif21@tsinghua.edu.cn | yangjq21@mails.tsinghua.edu.cn or open an issue if you have any questions.
 
 ```bibtex
-@article{zhang023information,
+@article{zhang2023information,
   title={Information flow in self-supervised learning},
   author={Zhang, Yifan and Yang, Jingqin and Huang, Weiran and Yuan, Yang},
   journal={arXiv preprint arXiv:2309.17281},
