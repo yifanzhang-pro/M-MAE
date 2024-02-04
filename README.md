@@ -25,7 +25,7 @@ Please cite the paper and star this repo if you use M-MAE and find it interestin
 ```bibtex
 @article{zhang2023information,
   title={Information flow in self-supervised learning},
-  author={Zhang, Yifan and Yang, Jingqin and Huang, Weiran and Yuan, Yang},
+  author={Zhang, Yifan and Zhiquan Tan and Yang, Jingqin and Huang, Weiran and Yuan, Yang},
   journal={arXiv preprint arXiv:2309.17281},
   year={2023}
 }
